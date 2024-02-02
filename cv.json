@@ -1,0 +1,198 @@
+{
+  "basics": {
+    "name": "Ricardo Gabriel Rouco",
+    "label": "Desarrollador Fullstack",
+    "image": "https://avatars.githubusercontent.com/u/28931338?s=400&u=93280bb654e2eb9499d1e68f0372e14d80c0ab2e&v=4",
+    "email": "r.g.rouco1@gmail.com",
+    "phone": "+5493484380831",
+    "url": "https://johndoe.com",
+    "summary": "Soy desarrollador fullstack, con conocimientos en JavaScript, React, Redux, Node.js, Expres.js, Typescript y Next.js. Soy un desarollador que siempre busca agregar conocimientos y experiencias nuevas y siempre estoy en constante aprendizaje.",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "B1625",
+      "city": "Belen de Escobar",
+      "countryCode": "ARG",
+      "region": "Buenos Aires"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "Ricardo-Gabriel-Rouco",
+        "url": "https://github.com/Ricardo-Gabriel-Rouco"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Gabriel Rouco",
+        "url": "https://www.linkedin.com/in/ricardo-gabriel-rouco/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Aythen",
+      "position": "Fullstack Developer",
+      "url": "https://company.com",
+      "startDate": "2023-10-01",
+      "endDate": null,
+      "summary": "Desarrollador de Frontend y Backend en React en un aplataforma que provee servicios de despliegue de software, al igual que edición de código en vivo y colaboración de múltiples usuarios. Promotor de buenas prácticas para mejorar la experiencia del usuario y la experiencia del desarrollador.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Aislamax SA",
+      "position": "Administrativo",
+      "url": "https://company.com",
+      "startDate": "2021-03-01",
+      "endDate": "2022-08-01",
+      "summary": "Desempeñé funciones administrativas en el área de facturación y cobranzas, así como también funciones de mantenimiento del sistema de gestión.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "soy Henry",
+      "url": "https://institution.com/",
+      "area": "Desarrollo Web",
+      "studyType": "Desarrollador web Fullstack",
+      "startDate": "2022-09-01",
+      "endDate": "2023-06-01",
+      "score": "4.0",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Express.js",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Sequelize",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Node.js",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Next.js",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Raspberry Pi",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
