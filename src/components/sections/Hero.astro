@@ -4,10 +4,9 @@ import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import Github from "@/icons/Github.astro";
-import X from "@/icons/X.astro"
+import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
-
 
 const { name, label, location, image, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -15,8 +14,13 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
   Github,
   LinkedIn,
-  X
-} 
+  X,
+};
+
+const linkedinInfo = profiles.find((profile) => profile.network === "LinkedIn");
+const linkedUrl = linkedinInfo?.url;
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -25,7 +29,10 @@ const SOCIAL_ICONS: Record<string, any> = {
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span><WorldMap /> {city}, {region}</span>
-      <footer>
+      <footer class="print">
+        {printInfo}
+      </footer>
+      <footer class="no-print">
         {
           email && (
             <a
@@ -64,7 +71,7 @@ const SOCIAL_ICONS: Record<string, any> = {
               >
                 <Icon />
               </a>
-            )
+            );
           })
         }
       </footer>
@@ -122,6 +129,8 @@ const SOCIAL_ICONS: Record<string, any> = {
     display: flex;
     gap: 4px;
     margin-top: 8px;
+    font-size: 0.65rem;
+    color: #555;
   }
 
   footer a {
@@ -134,12 +143,27 @@ const SOCIAL_ICONS: Record<string, any> = {
     height: 32px;
     width: 32px;
     border-radius: 6px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   footer a:hover {
     background: #eee;
     border: solid 1px #ddd;
+  }
 
+  .print {
+    display: none;
+  }
+
+  @media print {
+    .print {
+      display: block;
+    }
+  }
+
+  @media print {
+    .no-print {
+      display: none;
+    }
   }
 </style>
