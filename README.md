@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c4f8e7a9-7643-4d84-bd2a-1e36cc508ff6/deploy-status)](https://app.netlify.com/sites/unique-kitten-d8771b/deploys)
+
 # Esquema del JSON de CV de [jsonresume.org](https://jsonresume.org/schema/)
 ## Basado en el diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv)
 
