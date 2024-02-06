@@ -43,4 +43,4 @@ npm dev
 
 ## 🔑 Licencia
 Este proyecto fue tomado de midudev. Dejo el enlace para que puedan ver sus otros proyectos
-Creado por [**midudev**](https://midu.dev).
+[**midudev**](https://midu.dev).
