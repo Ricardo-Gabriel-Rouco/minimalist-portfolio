@@ -212,6 +212,24 @@
       "url": "https://www.book-kingom.com.ar/",
       "startDate": "2023-02-01",
       "endDate": "2023-03-01"
+    },
+    {
+      "name": "Portfolio/cv",
+      "isActive": true,
+      "highlights": [""],
+      "description": "Un cv desplegado en en web, utilizando css, html y javascript con el proposito de practicar el framework Astro",
+      "url": "https://unique-kitten-d8771b.netlify.app/",
+      "startDate": "2024-02-01",
+      "endDate": "2024-02-07"
+    },
+    {
+      "name": "Portfolio",
+      "isActive": true,
+      "highlights": [""],
+      "description": "Un porfolio desplegado en la web con el fin de reforzar buenas prácticas en el uso de Astro, Tailwind y creacíon de UI/UX.",
+      "url": "https://master--deft-toffee-295b6b.netlify.app/",
+      "startDate": "2023-02-07",
+      "endDate": "2023-02-14"
     }
   ]
 }
