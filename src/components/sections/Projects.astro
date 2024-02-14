@@ -25,9 +25,8 @@ import { projects } from "@cv";
                 <p>{description}</p>
               </header>
               <footer>
-                {highlights.map((highlight) => (
-                  <span>{highlight}</span>
-                ))}
+                {highlights.length > 1 &&
+                  highlights.map((highlight) => <span>{highlight}</span>)}
               </footer>
             </article>
           </li>

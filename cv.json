@@ -187,13 +187,31 @@
   ],
   "projects": [
     {
-      "name": "Project",
+      "name": "Call of whatever i Want",
       "isActive": true,
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "highlights": [""],
+      "description": "Un mini juego utilizando JavaScript puro, con un poco de CSS para el menú principal usando Less. Fue creado simplemente para practicar el uso de clases y objetos en JS. Actualmente está desplegado en Vercel. No es responsive.",
+      "startDate": "2022-11-01",
+      "endDate": "2022-12-01",
+      "url": "https://callofwhatever.vercel.app/"
+    },
+    {
+      "name": "Pi-videogames",
+      "highlights": [""],
+      "isActive": true,
+      "description": "Esto es una aplicación Crud creada para el Proyecto Individual en el bootcamp de Desarrollo FullStack en SoyHenry. Fue construida con React, Js, Redux, Sequelize y un servidor Express. El despliegue se realiza en Railway y debido a las restricciones del plan gratuito, podría estar fuera de servicio. Toda la información proviene de la API de Rawg.io. Además, la página se renderiza en Vercel.",
+      "url": "https://video-game-deploy.vercel.app/",
+      "startDate": "2023-01-01",
+      "endDate": "2023-02-01"
+    },
+    {
+      "name": "Book´s Kingdom",
+      "isActive": true,
+      "highlights": [""],
+      "description": "Un comercio electrónico que fue desarrollado como proyecto final en el bootcamp de SoyHenry, en equipo con seis miembros. Utilizamos Firebase para el back-end, y la autenticación de usuarios se realizó con el servicio de autenticación de Google. Además, para el estilo del front-end empleamos Material UI, NodeMailer para el envío de correos electrónicos y finalmente implementamos Redux Toolkit para gestionar estados globales.",
+      "url": "https://www.book-kingom.com.ar/",
+      "startDate": "2023-02-01",
+      "endDate": "2023-03-01"
     }
   ]
 }
